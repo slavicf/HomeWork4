@@ -1,11 +1,8 @@
 public class task01 {
 
     static void counter(int x) {
-
-        if (x > 0) {
-            counter(x - 1);
-            System.out.println(x);
-        }
+        for (int i = 1; i <= x; i++)
+            System.out.println(i);
     }
 
     public static void main(String[] args) {
