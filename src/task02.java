@@ -7,7 +7,7 @@ public class task02 {
     static void drawRectangle(int x, int y) {
         for (int i = 0; i < y; i++){
             for (int j = 0; j < x; j++){
-                System.out.print("+");
+                System.out.print("+ ");
             }
             System.out.println();
         }
