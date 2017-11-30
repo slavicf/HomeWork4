@@ -1,4 +1,5 @@
 public class task03 {
+
     static void drawRectangle(int x) {
         drawRectangle(x, x);
     }
