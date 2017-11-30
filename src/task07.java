@@ -13,7 +13,6 @@ public class task07 {
 //  ------------------------------------------------------------
     static Scanner scanner = new Scanner(System.in);
     static int x, y, a, b, c;
-
     //  ------------------------------------------------------------
     static void task01() {
         System.out.println("Функция считает в консоли до числа Х");
@@ -21,7 +20,6 @@ public class task07 {
         x = scanner.nextInt();
         task01.counter(x);
     }
-
     //  ------------------------------------------------------------
     static void task02() {
         System.out.println("Функция рисует в консоли прямоугольник из символов '+'");
@@ -31,7 +29,6 @@ public class task07 {
         y = scanner.nextInt();
         task02.drawRectangle(x, y);
     }
-
     //  ------------------------------------------------------------
     static void task03() {
         System.out.println("Функция рисует в консоли квадрат с равными сторонами");
@@ -39,7 +36,6 @@ public class task07 {
         x = scanner.nextInt();
         task03.drawRectangle(x);
     }
-
     //  ------------------------------------------------------------
     static void task04() {
         System.out.println("Функция принимает на вход два аргумента в виде чисел, возвращает максимальное из этих двух");
@@ -50,7 +46,6 @@ public class task07 {
         c = task04.getMax(a, b);
         System.out.println(c);
     }
-
     //  ------------------------------------------------------------
     static void task05() {
         System.out.println("Задача 1, без использования циклов. Используя рекурсию");
@@ -59,7 +54,6 @@ public class task07 {
         x = scanner.nextInt();
         task05.counter(x);
     }
-
     //  ------------------------------------------------------------
     static void task06() {
         System.out.println("Задача 2, без использования циклов. Используя рекурсию");
@@ -70,7 +64,6 @@ public class task07 {
         y = scanner.nextInt();
         task06.drawRectangle(x, y);
     }
-
     //  ------------------------------------------------------------
     public static void main(String[] args) {
 
